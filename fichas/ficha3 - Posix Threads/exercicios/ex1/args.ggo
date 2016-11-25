@@ -1,0 +1,20 @@
+package "Example of .ggo file"
+version "1.0"
+purpose "Simple example"
+description "description needed"
+versiontext "versiontext needed"
+
+#----------------------------
+# independent options
+#----------------------------
+# Mandatory option
+option "folder" f "folder" string typestr="dirname" required
+
+# Optional
+# Syntax: option <long> <short> "<desc>" {argtype} {typestr="<type descr>"}
+option "num" n "number" int optional
+
+
+#
+# NOTE: support for this file needs to be enabled in 'makefile'
+#

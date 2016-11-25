@@ -1,0 +1,6 @@
+package "Ficha 1 - PA"
+version "1.0"
+purpose "Create n processes"
+
+# Mandatory option
+option "num_procs" n "Number of processes to list" int required

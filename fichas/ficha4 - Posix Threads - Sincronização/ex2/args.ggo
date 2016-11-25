@@ -1,0 +1,22 @@
+package "Ficha 4 PA"
+version "1.0"
+purpose ""
+description ""
+versiontext ""
+
+#----------------------------
+# independent options
+#----------------------------
+# Mandatory option
+
+option "threads" t "nr of threads to use" int required
+option "file" f "file" string typestr="dirname" required
+option "blocksize" b "block size in for each thread" int required
+
+# Optional
+# Syntax: option <long> <short> "<desc>" {argtype} {typestr="<type descr>"}
+
+
+#
+# NOTE: support for this file needs to be enabled in 'makefile'
+#

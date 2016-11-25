@@ -1,0 +1,14 @@
+
+a) Efetue a conversão de 0x912 para binário. 
+
+Hexadecimal = 0x912
+
+Binário =  ?
+
+---------------------------------------------------------------------------------------------
+
+b) Efetue a conversão de 111.0010.0001.0110 para hexadecimal.
+
+Binário = 111001000010110
+
+Hexadecimal =  ?
